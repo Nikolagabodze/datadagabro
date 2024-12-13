@@ -47,4 +47,23 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+body header .header-container {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+body header .header-container .header-content {
+  max-width: 1186px;
+  padding: 0px 10px;
+  width: 100%;
+}
+body header .header-container .header-content nav ul {
+  display: flex;
+  max-width: 351px;
+  width: 100%;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
