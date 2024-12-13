@@ -49,19 +49,19 @@ table {
   border-spacing: 0;
 }
 
-body header .header-container {
+header .header-container {
   max-width: 1440px;
   width: 100%;
   display: flex;
   justify-content: center;
   margin: 0 auto;
 }
-body header .header-container .header-content {
+header .header-container .header-content {
   max-width: 1186px;
   padding: 0px 10px;
   width: 100%;
 }
-body header .header-container .header-content nav ul {
+header .header-container .header-content nav ul {
   display: flex;
   max-width: 351px;
   width: 100%;
