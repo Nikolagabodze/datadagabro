@@ -28,6 +28,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  background-color: #F5F5F5;
 }
 
 ol, ul {
@@ -66,4 +67,73 @@ header .header-container .header-content nav ul {
   max-width: 351px;
   width: 100%;
   justify-content: space-between;
+}
+
+.section-container {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.section-container .section-content {
+  max-width: 1186px;
+  width: 100%;
+  padding: 0 10px;
+}
+.section-container .section-content .section-header {
+  margin-bottom: 27px;
+}
+.section-container .section-content .content {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.section-container .section-content .content .card {
+  max-width: 362px;
+  min-height: 357px;
+  width: 100%;
+}
+.section-container .section-content .content .card .card1-header {
+  background-image: url(image/1.svg);
+  padding: 32px 137px 131px 41px;
+}
+.section-container .section-content .content .card .card1-header b {
+  font-size: 20px;
+  color: white;
+  font: 800;
+}
+.section-container .section-content .content .card .card2-header {
+  background-image: url(image/2.svg);
+  padding: 32px 137px 131px 41px;
+}
+.section-container .section-content .content .card .card3-header {
+  background-image: url(image/3.svg);
+  padding: 32px 137px 131px 41px;
+}
+.section-container .section-content .content .card .card-content {
+  padding: 68px 87px 40px 37px;
+  background-color: white;
+}
+.section-container .section-content .content .card .card-content .card-text {
+  max-width: 238px;
+  width: 100%;
+  display: flex;
+  font-size: 10px;
+  color: #8A8787;
+  margin-bottom: 14px;
+}
+.section-container .section-content .content .card .card-content .card-footer {
+  display: flex;
+  gap: 11px;
+}
+.section-container .section-content .content .card .card-content .card-footer img {
+  width: 16px;
+  height: 16px;
+}
+.section-container .section-content .content .card .card-content .card-footer span {
+  font-size: 10px;
+  color: #8A8787;
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
