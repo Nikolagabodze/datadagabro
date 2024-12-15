@@ -1,0 +1,27 @@
+.section-container{
+    .section-content{
+        .content1{
+            gap: 45px;
+            margin-bottom: 30px;
+            display: flex;
+            .content-div{
+                div{
+                    
+                    h4{
+                        position: absolute;
+                        color: white;
+                        font-size: 20px;
+                        font: bold;
+                        margin: 203px 278px;
+                    }
+                    img{
+                        margin-bottom: 42px;
+                    }
+                }
+                img{
+                    margin-bottom: 98px;
+                }
+            }
+        }
+    }
+}

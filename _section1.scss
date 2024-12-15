@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    margin-bottom: 57px;
     .section-content{
         max-width: 1186px;
         width: 100%;
@@ -31,10 +32,20 @@
                 .card2-header{
                     background-image: url(image/2.svg);
                     padding: 32px 137px 131px 41px;
+                    b{
+                        font-size: 20px;
+                        color: white;
+                        font: 800;
+                    }
                 }
                 .card3-header{
                     background-image: url(image/3.svg);
                     padding: 32px 137px 131px 41px;
+                    b{
+                        font-size: 20px;
+                        color: white;
+                        font: 800;
+                    }
                 }
                 .card-content{
                     padding: 68px 87px 40px 37px;
@@ -51,16 +62,11 @@
                     .card-footer{
                         display: flex;
                         gap: 11px;
-                        img{
-                            width: 16px;
-                            height: 16px;
-                        }
                         span{
                             font-size: 10px;
                             color: #8A8787;
                             display: flex;
                             align-items: center;
-
                         }
                     }
                 }
