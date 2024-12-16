@@ -10,11 +10,17 @@ header{
             padding: 0px 10px;
             width: 100%;
             nav{
+                padding: 11px 0 33px 0;
                 ul{
                     display: flex;
                     max-width: 351px;
                     width: 100%;
                     justify-content: space-between;
+                    align-items: center;
+                    li{
+                        font-size: 11px;
+                        font: bold;
+                    }
                 }
             }
         }
