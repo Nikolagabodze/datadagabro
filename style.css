@@ -156,12 +156,16 @@ header .header-container .header-content nav ul li {
   gap: 45px;
   display: flex;
 }
+.section-container .section-content .content1 .content-div div {
+  position: relative;
+}
 .section-container .section-content .content1 .content-div div h4 {
   position: absolute;
+  top: 203px;
+  left: 278px;
   color: white;
   font-size: 20px;
-  font: bold;
-  margin: 203px 278px;
+  font-weight: bold;
 }
 .section-container .section-content .content1 .content-div div .img1 {
   margin-bottom: 42px;

@@ -1,26 +1,27 @@
-.section-container{
-    .section-content{
-        .content1{
-            gap: 45px;
-            display: flex;
-            .content-div{
-                div{
-                    
-                    h4{
-                        position: absolute;
-                        color: white;
-                        font-size: 20px;
-                        font: bold;
-                        margin: 203px 278px;
-                    }
-                    .img1{
-                        margin-bottom: 42px;
-                    }
-                }
-                .img2{
-                    margin-bottom: 98px;
-                }
-            }
+.section-container {
+  .section-content {
+    .content1 {
+      gap: 45px;
+      display: flex;
+      .content-div {
+        div {
+          position: relative;
+          h4 {
+            position: absolute;
+            top: 203px;
+            left: 278px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+          }
+          .img1 {
+            margin-bottom: 42px;
+          }
         }
+        .img2 {
+          margin-bottom: 98px;
+        }
+      }
     }
+  }
 }
